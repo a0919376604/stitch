@@ -1,0 +1,21 @@
+﻿已經開始建置於 2015/4/12 上午 02:14:31。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Stitch\Stitch.vcxproj"。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\stitch.cpp
+         stitch.cpp
+     1>D:\opencv\build\install\include\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>..\stitch.cpp(495): warning C4018: '<' : signed/unsigned 不相符
+     1>..\stitch.cpp(807): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>..\stitch.cpp(808): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>..\stitch.cpp(825): warning C4018: '<' : signed/unsigned 不相符
+     1>..\stitch.cpp(838): warning C4101: 't' : 未參考的區域變數
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Release\Stitch.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Release\Stitch.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Release\Stitch.lib" /MACHINE:X86 /SAFESEH Release\stitch.obj
+         正在產生程式碼
+         已完成程式碼產生
+         Stitch.vcxproj -> C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Release\Stitch.exe
+     1>專案 "C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Stitch\Stitch.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.73

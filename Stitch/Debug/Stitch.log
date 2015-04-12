@@ -1,0 +1,16 @@
+﻿已經開始建置於 2015/4/7 下午 09:59:26。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Stitch\Stitch.vcxproj"。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\stitch.cpp
+         stitch.cpp
+     1>d:\opencv\build\install\include\opencv2\stitching\detail\motion_estimators.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\eric\documents\visual studio 2013\projects\stitch\stitch.cpp(536): warning C4018: '<' : signed/unsigned 不相符
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Debug\Stitch.exe" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Debug\Stitch.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Debug\Stitch.lib" /MACHINE:X86 Debug\stitch.obj
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(607,5): error MSB6006: "link.exe" 以返回碼 1104 結束。
+     1>LINK : fatal error LNK1104: 無法開啟檔案 'opencv_calib3d2410d.lib'
+     1>專案 "C:\Users\eric\documents\visual studio 2013\Projects\Stitch\Stitch\Stitch.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:01.86
